@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        h1{
+            text-shadow: 1px 1px 1px black;
+        }
+        body{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            background-color: bisque;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 3px 3px 3px 0px rgb(209, 209, 209);
+        }
+        nav{
+            background-color: rgba(121, 154, 155, 0.507);
+            padding: 3px;
+            width: 400px;
+            box-shadow: 3px 3px 3px 0px rgb(209, 209, 209);
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 30px;
+            color: blueviolet;
+        }
+        a:hover{
+            text-decoration:underline ;
+            color: blue;
+        }
+        article{
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+            width: 720px;
+            border-radius: 30px 0px;
+
+        }
+        article > aside{
+            background-color: rgba(99, 88, 75, 0.521);
+            border-radius: 6px 0px;
+            width: 160px;
+            padding: 5px;
+            text-align: center;
+        }
+        footer{
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 5px;
+            margin: 0px;
+        }
+        div#bola{
+            height: 160px;
+            width: 160px;
+            background-color: blueviolet;
+            margin: 10px auto 5px auto;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Primeiro Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Tema do conteúdo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, quasi. Similique atque, sunt ullam incidunt omnis eum alias quasi dolores libero, possimus quam perferendis? Placeat fugit velit numquam similique iure!</p>
+            </article>
+            <article>
+                <h2>Tema conteudo parte dois</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam accusantium officia pariatur culpa voluptatum voluptatem inventore iste et ab qui? Odit nesciunt eius blanditiis a nemo voluptatem fuga recusandae? Veritatis?</p>
+                <aside>
+                    Autor: João de Lima
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Dev. Hugo</p>
+    </footer>
+    <div id="bola">
+        <h3></h3>
+    </div>
+    
+</body>
+</html>
