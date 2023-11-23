@@ -7,21 +7,19 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iusu"> Usuário: </label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required minlength="4" maxlength="12">
         </p>
         <p>
             <label for="isen"> Senha: </label>
-            <input type="password" name="sen" is="iden">
+            <input type="password" name="sen" is="iden" required minlength="4" maxlength="12">
         </p>
         <p>
             <input type="submit" value="envia">
             <input type="reset" value="Limpar">
         </p>
-
-
     </form>
     
 </body>
