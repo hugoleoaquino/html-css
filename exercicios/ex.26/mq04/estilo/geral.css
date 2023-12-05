@@ -11,9 +11,7 @@
 h1{
     color: blue;
 }
-
-body, html{
-    
+html{
     height: 100vh;
 }
 body{
