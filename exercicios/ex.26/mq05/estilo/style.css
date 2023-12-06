@@ -16,10 +16,21 @@ header h1{
     padding: 10px;
 }
 menu{
-    display: block;   
+    display: none;   
 }
 menu > ul {
     list-style-type: none;
+}
+span#burguer{
+    background-color: rgb(36, 53, 36) ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
 }
 li > a {
     display: block;
